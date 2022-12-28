@@ -1,0 +1,148 @@
+{
+  "drinks": [
+    {
+      "id": 1,
+      "title": "Passion Cooler | Mai Tai | Dark & Stormy",
+      "category": "FUN MIXED",
+      "price": "11"
+    },
+    {
+      "id": 2,
+      "title": "Ginger Mojito",
+      "category": "FUN MIXED",
+      "price": "12"
+    },
+    {
+      "id": 3,
+      "title": "Kaffir Lime | Ginger | Lychee | Sake",
+      "category": "MARTINI",
+      "price": "13"
+    },
+    {
+      "id": 4,
+      "title": "Red Berry Cosmo | Spicy Matcha Green Tea",
+      "category": "MARTINI",
+      "price": "13"
+    },
+    {
+      "id": 5,
+      "title": "Warm Sake",
+      "category": "SAKE",
+      "price": "8 Oz. / 12"
+    },
+    {
+      "id": 6,
+      "title": "Hajushika Namacho (fresh & ligh)",
+      "category": "SAKE",
+      "price": "6.0 Oz. / 11"
+    },
+    {
+      "id": 7,
+      "title": "Hana Awaka Sparkling Sake (a hint of sweetness)",
+      "category": "SAKE",
+      "price": "8.5 Oz. / 22"
+    },
+    {
+      "id": 8,
+      "title": "Hakushika Snow Beauty (unfiltered)",
+      "category": "SAKE",
+      "price": "10 Oz. / 20"
+    },
+    {
+      "id": 9,
+      "title": "Hakushika Junmai Ginjo (full body)",
+      "category": "SAKE",
+      "price": "10 Oz. / 20"
+    },
+    {
+      "id": 10,
+      "title": "Singha",
+      "category": "BEER",
+      "price": "5"
+    },
+    {
+      "id": 11,
+      "title": "Muay Thai IPA",
+      "category": "BEER",
+      "price": "4"
+    },
+    {
+      "id": 12,
+      "title": "Sapporo 22 Oz. CAN",
+      "category": "BEER",
+      "price": "9"
+    },
+    {
+      "id": 13,
+      "title": "Chardonnay, Castle Rock, California, 2018",
+      "category": "WHITE WINE",
+      "price": "10/36"
+    },
+    {
+      "id": 14,
+      "title": "Pinot Grigio, Stella, Italy, 2018",
+      "category": "WHITE WINE",
+      "price": "9/30"
+    },
+    {
+      "id": 15,
+      "title": "Gruner Veltliner, Kremstal, Austrai, 2018",
+      "category": "WHITE WINE",
+      "price": "9/30"
+    },
+    {
+      "id": 16,
+      "title": "Sauvignon Blanc, Nobilo, New Zealand, 2018",
+      "category": "WHITE WINE",
+      "price": "10/36"
+    },
+    {
+      "id": 17,
+      "title": "Vitiano Rosato, Italy, 2017",
+      "category": "ROŚE",
+      "price": "10/36"
+    },
+    {
+      "id": 18,
+      "title": "Pinot Noir, La Chevaliere, France, 2017",
+      "category": "RED WINE",
+      "price": "10/36"
+    },
+    {
+      "id": 19,
+      "title": "Malbec, Chateau st. Jean, Sonoma, California, 2016",
+      "category": "RED WINE",
+      "price": "10/36"
+    },
+    {
+      "id": 20,
+      "title": "Cabernet Sauvignon, Louis Martink, Sonoma, 2017",
+      "category": "RED WINE",
+      "price": "12/44"
+    },
+    {
+      "id": 21,
+      "title": "Passion fruit nectar (a tasty blend of citrus, pineapple and guava)",
+      "category": "NONE ALCOCHOLIC",
+      "price": "6"
+    },
+    {
+      "id": 22,
+      "title": "Lemongrass Iced Green Tea",
+      "category": "NONE ALCOCHOLIC",
+      "price": "4"
+    },
+    {
+      "id": 23,
+      "title": "Thai Iced Tea | Regular Iced Tea | Soda",
+      "category": "NONE ALCOCHOLIC",
+      "price": "4"
+    },
+    {
+      "id": 24,
+      "title": "Distilled-Evian | Sparking-Badoit | Soda)",
+      "category": "NONE ALCOCHOLIC",
+      "price": "4/8"
+    }
+  ]
+}

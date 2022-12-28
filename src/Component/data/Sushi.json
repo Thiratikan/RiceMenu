@@ -1,0 +1,106 @@
+{
+  "sushi": [
+    {
+      "id": 1,
+      "title": "20 pieces of Sashimi (Tuna, Salmon, Yellowtail, Octopus and Kani), Diced Tuna & Salmon, Veggies, Pickled Ginger, Wasabi Seaweed Salad, 6 Seaweed Wrap Sheets, 2 Sushi Rice, 2 Miso Soups, - No Substitution -",
+      "category": "Bento for Two",
+      "price": "75"
+    },
+    {
+      "id": 2,
+      "title": "Choice of TUNA, SALMON, TOBIKO or OCTOPUS",
+      "category": "Nigiri | Sashimi (2 pcs per order)",
+      "price": "6"
+    },
+    {
+      "id": 3,
+      "title": "Choice of YELLOWTAIL or WHITE TUNA",
+      "category": "Nigiri | Sashimi (2 pcs per order)",
+      "price": "7"
+    },
+    {
+      "id": 4,
+      "title": "CLASSIC ROLL | Choice of TUNA, SALMON, YELLOWTAIL, OSHINKO or SHRIMP",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "7"
+    },
+    {
+      "id": 5,
+      "title": "AVOCADO ROLL | Choice of TUNA, SALMON, YELLOWTAIL or SHRIMP",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "9"
+    },
+    {
+      "id": 6,
+      "title": "SPICY ROLL | Choice of TUNA, SALMON, YELLOWTAIL or SHRIMP - with cucumber",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "9"
+    },
+    {
+      "id": 7,
+      "title": "CALIFORNIA ROLL | with KANIKAMA, AVOCADO and CUCUMBER",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "8"
+    },
+    {
+      "id": 8,
+      "title": "SHRIMP TEMPURA ROLL | with AVOCADO, CUCUMBER topped with eel sauce",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "9"
+    },
+    {
+      "id": 9,
+      "title": "VEGGIE ROLL | Choice of AVOCADO, CUCUMBER, SHIITAKE or ASPARAGUS",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "6"
+    },
+    {
+      "id": 10,
+      "title": "VEGGIE COMBO ROLL | with AVOCADO, CUCUMBER, SHIITAKE and ASPARAGUS - (5 pcs)",
+      "category": "Traditional Rolls (6 pcs)",
+      "price": "7"
+    },
+    {
+      "id": 11,
+      "title": "SASHIMI COMBO | with TUNA, SALMON, WHITE TUNA and YELLOWTAIL",
+      "category": "Sashimi (8 pcs)",
+      "price": "16"
+    },
+    {
+      "id": 12,
+      "title": "POKE | Rice with a choice of TUNA or SALMON - and poke sauce",
+      "category": "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)",
+      "price": "15"
+    },
+    {
+      "id": 13,
+      "title": "DONBURI | Rice with a choice of TUNA or SALMON",
+      "category": "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)",
+      "price": "15"
+    },
+    {
+      "id": 14,
+      "title": "SPICY YELLOWTAIL | Rice with YELLOWTAIL and spicy garlic sauce",
+      "category": "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)",
+      "price": "16"
+    },
+    {
+      "id": 15,
+      "title": "CHIRASHI | Rice with mixed chef’s selection",
+      "category": "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)",
+      "price": "19"
+    },
+    {
+      "id": 16,
+      "title": "TOFU VEGGIE BOWL | Rice with soft tofu, shiitake, asparagus, avocado, cucumber & seaweed salad",
+      "category": "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)",
+      "price": "14"
+    },
+    {
+      "id": 17,
+      "title": "MISO SOUP 3.5 | EDAMAME 3.95 | SEAWEED SALAD 4.95 | SUSHI RICE 3.50",
+      "category": "Sides",
+      "price": ""
+    }
+  ]
+}

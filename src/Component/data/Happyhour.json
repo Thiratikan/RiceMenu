@@ -1,0 +1,130 @@
+{
+  "happyhour": [
+    {
+      "id": 1,
+      "title": "Chardonnay, J.W. Morris, California, 2018",
+      "category": "WHITE WINE",
+      "price": "6/24"
+    },
+    {
+      "id": 2,
+      "title": "Pinot Grigio, Canyon Road, California, 2018",
+      "category": "WHITE WINE",
+      "price": "6/24"
+    },
+    {
+      "id": 3,
+      "title": "Sauvignon Blanc, Mondavi, California, 2018",
+      "category": "WHITE WINE",
+      "price": "6/24"
+    },
+    {
+      "id": 4,
+      "title": "Malbec, El Libre, Argentina, 2016",
+      "category": "RED WINE",
+      "price": "6/24"
+    },
+    {
+      "id": 5,
+      "title": "Cabernet Sauvignon, Mondavi, California, 2017",
+      "category": "RED WINE",
+      "price": "6/24"
+    },
+    {
+      "id": 6,
+      "title": "Miso Soup",
+      "category": "APPERTIZER",
+      "price": "3"
+    },
+    {
+      "id": 7,
+      "title": "Edamame",
+      "category": "APPERTIZER",
+      "price": "4"
+    },
+    {
+      "id": 8,
+      "title": "Seaweed Salad",
+      "category": "APPERTIZER",
+      "price": "4"
+    },
+    {
+      "id": 9,
+      "title": "Ika Geso (Fried Squid Leg)",
+      "category": "APPERTIZER",
+      "price": "7"
+    },
+    {
+      "id": 10,
+      "title": "Takoyaki",
+      "category": "APPERTIZER",
+      "price": "7"
+    },
+    {
+      "id": 11,
+      "title": "Nigiri Combo (4pcs.)",
+      "category": "APPERTIZER",
+      "price": "9"
+    },
+    {
+      "id": 12,
+      "title": "Spicy Tuna",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 13,
+      "title": "Spicy Salmon",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 14,
+      "title": "Spicy White Fish",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 15,
+      "title": "Spicy Shrimp",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 16,
+      "title": "Avocado Tuna",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 17,
+      "title": "Avocado White Fish",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 18,
+      "title": "Avocado Shrimp",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 19,
+      "title": "Califonia Roll",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 20,
+      "title": "Shrimp Tempura Roll",
+      "category": "Sushi",
+      "price": ""
+    },
+    {
+      "id": 21,
+      "title": "Veggies Green (Avocado, Cucumber, Aspagus)",
+      "category": "Sushi",
+      "price": ""
+    }
+  ]
+}
