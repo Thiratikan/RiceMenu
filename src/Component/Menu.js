@@ -1,5 +1,5 @@
 import React from "react";
-import Drinks from "./Drinks";
+import DrinksMenu from "./DrinksMenu";
 import Sushi from "./Sushi";
 import Lunch from "./Lunch";
 import Dinner from "./Dinner";
@@ -11,7 +11,7 @@ function Menu() {
   return (
     <>
       <Welcome />
-      <Drinks />
+      <DrinksMenu />
       <Sushi />
       <Lunch />
       <Dinner />
