@@ -219,7 +219,7 @@
     {
       "id": 28,
       "title": "PAD THAI",
-      "category": "NOODLES",
+      "category": "TRADITIONAL THAI",
       "price": "16",
       "mode": "V",
       "desc": "CHICKEN | PORK | TOFU | BEEF OR SHRIMP with egg, bean sprouts and peanuts"
@@ -227,7 +227,7 @@
     {
       "id": 29,
       "title": "DRUNKEN NOODLES",
-      "category": "NOODLES",
+      "category": "TRADITIONAL THAI",
       "price": "16",
       "mode": "V S",
       "desc": "CHICKEN | PORK | TOFU I BEEF OR SHRIMP with basil, chili, onions"
@@ -235,18 +235,18 @@
     {
       "id": 30,
       "title": "PAD SEE EEW",
-      "category": "NOODLES",
+      "category": "TRADITIONAL THAI",
       "price": "16",
       "mode": "V",
       "desc": "CHICKEN | PORK | TOFU I BEEF OR SHRIMP with egg, broccoli"
     },
     {
       "id": 31,
-      "title": "KA PROW basil",
-      "category": "RICE",
+      "title": "KA PROW",
+      "category": "TRADITIONAL THAI",
       "price": "16",
       "mode": "S",
-      "desc": "with CHICKEN | PORK | BEEF OR SHRIMP with chili, garlic, bell peppers"
+      "desc": "basil with CHICKEN | PORK | BEEF OR SHRIMP with chili, garlic, bell peppers"
     },
     {
       "id": 32,
@@ -266,6 +266,14 @@
     },
     {
       "id": 34,
+      "title": "STEAMED SILKEN TOFU",
+      "category": "TRADITIONAL THAI",
+      "price": "17",
+      "mode": "V",
+      "desc": "with mushrooms, mixed vegetables in SHIITAKE SOY puree"
+    },
+    {
+      "id": 35,
       "title": "STEAMED SILKEN TOFU",
       "category": "TRADITIONAL THAI",
       "price": "17",

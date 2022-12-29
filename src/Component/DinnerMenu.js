@@ -64,12 +64,13 @@ function DinnerMenu() {
           {Dinner.dinner
             .filter((i) => i.category === "TRADITIONAL THAI")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <h2>{desc}</h2>
                   </Text>
                 </div>
               );

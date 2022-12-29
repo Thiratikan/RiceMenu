@@ -45,13 +45,12 @@ export const MAIN = styled.div`
   }
 
   .martini {
-    margin-left: 90px;
+    margin-left: 72px;
     margin-top: 130px;
   }
   .sushi {
     height: 250px;
     weight: 150px;
-    position: absolute;
     margin-left: 120px;
     margin-top: -80px;
   }
@@ -59,31 +58,29 @@ export const MAIN = styled.div`
   .donburi {
     height: 300px;
     weight: 200px;
-    position: absolute;
     margin-left: 80px;
     margin-top: 40px;
   }
 
   .tomyum {
-    position: absolute;
     margin-left: 70px;
     margin-top: -50px;
   }
   .rice {
     height: 180px;
     weight: 100px;
+    margin-left: 140px;
+    margin-top: 260px;
   }
   .padthai {
     height: 200px;
     weight: 50px;
-    position: absolute;
     margin-left: 70px;
     margin-top: 350px;
   }
 
   .price {
-    position: absolute;
-    margin-left: 299px;
+    margin-left: 330px;
     margin-top: -15px;
   }
 `;
