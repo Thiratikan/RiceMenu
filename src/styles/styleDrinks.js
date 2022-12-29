@@ -6,7 +6,11 @@ export const Title = styled.div`
   margin-left: 20px;
 `;
 
-export const item = styled.div`
+export const Item = styled.div`
+  background-image: none;
+`;
+
+export const Text = styled.div`
   background-image: none;
 `;
 

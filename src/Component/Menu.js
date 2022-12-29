@@ -1,9 +1,9 @@
 import React from "react";
 import DrinksMenu from "./DrinksMenu";
-import Sushi from "./Sushi";
-import Lunch from "./Lunch";
-import Dinner from "./Dinner";
-import Happyhour from "./Happyhour";
+import SushiMenu from "./SushiMenu";
+import LunchMenu from "./LunchMenu";
+import DinnerMenu from "./DinnerMenu";
+import HappyhourMenu from "./HappyhourMenu";
 import Contact from "./Contact";
 import Welcome from "./Welcome";
 
@@ -12,10 +12,10 @@ function Menu() {
     <>
       <Welcome />
       <DrinksMenu />
-      <Sushi />
-      <Lunch />
-      <Dinner />
-      <Happyhour />
+      <SushiMenu />
+      <LunchMenu />
+      <DinnerMenu />
+      <HappyhourMenu />
       <Contact />
     </>
   );

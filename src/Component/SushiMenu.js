@@ -1,86 +1,17 @@
 import React from "react";
 import { DRINKS, Title, Item, Text } from "../styles/styleDrinks";
-import Drinks from "./data/Drinks.json";
+import Sushi from "./data/Sushi.json";
 
-function DrinksMenu() {
+function SushiMenu() {
   return (
     <>
       <DRINKS>
-        <Title id="drinks">Let's Drink</Title>
+        <Title id="sushi">SuShi</Title>
 
-        <section>FUN MIXED</section>
+        <section>Bento for Two</section>
         <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "FUN MIXED")
-            .map((item) => {
-              const { title, price, id } = item;
-              return (
-                <div key={id}>
-                  <Text>
-                    <h1>{title}</h1>
-                    <h1 className="price"> {price}</h1>
-                  </Text>
-                </div>
-              );
-            })}
-        </Item>
-        <img src="/images/martini.png" alt="" />
-        <section>MARTINI</section>
-
-        <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "MARTINI")
-            .map((item) => {
-              const { title, price, id } = item;
-              return (
-                <div key={id}>
-                  <Text>
-                    <h1>{title}</h1>
-                    <h1 className="price"> {price}</h1>
-                  </Text>
-                </div>
-              );
-            })}
-        </Item>
-        <section>SAKE</section>
-
-        <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "SAKE")
-            .map((item) => {
-              const { title, price, id } = item;
-              return (
-                <div key={id}>
-                  <Text>
-                    <h1>{title}</h1>
-                    <h1 className="price"> {price}</h1>
-                  </Text>
-                </div>
-              );
-            })}
-        </Item>
-        <section>BEER</section>
-
-        <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "BEER")
-            .map((item) => {
-              const { title, price, id } = item;
-              return (
-                <div key={id}>
-                  <Text>
-                    <h1>{title}</h1>
-                    <h1 className="price"> {price}</h1>
-                  </Text>
-                </div>
-              );
-            })}
-        </Item>
-        <section>WHITE WINE</section>
-
-        <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "WHITE WINE")
+          {Sushi.sushi
+            .filter((i) => i.category === "Bento for Two")
             .map((item) => {
               const { title, price, id } = item;
               return (
@@ -94,10 +25,10 @@ function DrinksMenu() {
             })}
         </Item>
 
-        <section>ROŚE</section>
+        <section>Nigiri | Sashimi (2 pcs per order)</section>
         <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "ROŚE")
+          {Sushi.sushi
+            .filter((i) => i.category === "Nigiri | Sashimi (2 pcs per order)")
             .map((item) => {
               const { title, price, id } = item;
               return (
@@ -111,10 +42,10 @@ function DrinksMenu() {
             })}
         </Item>
 
-        <section>RED WINE</section>
+        <section>Traditional Rolls (6 pcs)</section>
         <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "RED WINE")
+          {Sushi.sushi
+            .filter((i) => i.category === "Traditional Rolls (6 pcs)")
             .map((item) => {
               const { title, price, id } = item;
               return (
@@ -128,10 +59,50 @@ function DrinksMenu() {
             })}
         </Item>
 
-        <section>NON ALCOHOLIC</section>
+        <section>Sashimi (8 pcs)</section>
         <Item>
-          {Drinks.drinks
-            .filter((i) => i.category === "NON ALCOHOLIC")
+          {Sushi.sushi
+            .filter((i) => i.category === "Sashimi (8 pcs)")
+            .map((item) => {
+              const { title, price, id } = item;
+              return (
+                <div key={id}>
+                  <Text>
+                    <h1>{title}</h1>
+                    <h1 className="price"> {price}</h1>
+                  </Text>
+                </div>
+              );
+            })}
+        </Item>
+
+        <section>
+          Rice Bowl (** all Rice Bowls will be topped with sesame seeds)
+        </section>
+        <Item>
+          {Sushi.sushi
+            .filter(
+              (i) =>
+                i.category ===
+                "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)"
+            )
+            .map((item) => {
+              const { title, price, id } = item;
+              return (
+                <div key={id}>
+                  <Text>
+                    <h1>{title}</h1>
+                    <h1 className="price"> {price}</h1>
+                  </Text>
+                </div>
+              );
+            })}
+        </Item>
+
+        <section>Sides</section>
+        <Item>
+          {Sushi.sushi
+            .filter((i) => i.category === "Sides")
             .map((item) => {
               const { title, price, id } = item;
               return (
@@ -149,4 +120,4 @@ function DrinksMenu() {
   );
 }
 
-export default DrinksMenu;
+export default SushiMenu;
