@@ -1,11 +1,11 @@
 import React from "react";
-import { DRINKS, Title, Item, Text } from "../styles/styleDrinks";
+import { MAIN, Title, Item, Text } from "../styles/styleItems";
 import Happyhour from "./data/Happyhour.json";
 
 function HappyhourMenu() {
   return (
     <>
-      <DRINKS>
+      <MAIN>
         <Title id="happyhour">Happy Hour</Title>
 
         <section>WHITE WINE</section>
@@ -59,7 +59,7 @@ function HappyhourMenu() {
             })}
         </Item>
 
-        <section>Sushi</section>
+        <section>Sushi (5 pcs. $5)</section>
         <Item>
           {Happyhour.happyhour
             .filter((i) => i.category === "Sushi")
@@ -75,7 +75,7 @@ function HappyhourMenu() {
               );
             })}
         </Item>
-      </DRINKS>
+      </MAIN>
     </>
   );
 }

@@ -26,19 +26,19 @@
     },
     {
       "id": 4,
-      "title": "KA PROW basil",
+      "title": "KA PROW ",
       "category": "RICE",
       "price": "13",
       "mode": "S",
-      "desc": "with CHICKEN | PORK | BEEF OR SHRIMP $15, chili, garlic, bell peppers"
+      "desc": "basil with CHICKEN | PORK | BEEF OR SHRIMP $15, chili, garlic, bell peppers"
     },
     {
       "id": 5,
-      "title": "PAD KHING ginger",
+      "title": "PAD KHING",
       "category": "RICE",
       "price": "13",
       "mode": "V",
-      "desc": "with CHICKEN | PORK | TOFU | BEEF OR SHRIMP $15, spring onion, garlic"
+      "desc": "ginger with CHICKEN | PORK | TOFU | BEEF OR SHRIMP $15, spring onion, garlic"
     },
     {
       "id": 6,

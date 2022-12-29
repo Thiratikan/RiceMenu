@@ -1,11 +1,13 @@
 import React from "react";
-import { DRINKS, Title, Item, Text } from "../styles/styleDrinks";
+import { MAIN, Title, Item, Text } from "../styles/styleItems";
 import Sushi from "./data/Sushi.json";
 
 function SushiMenu() {
   return (
     <>
-      <DRINKS>
+      <MAIN>
+        <img className="sushi" src="/images/sushi.png" alt="" />
+
         <Title id="sushi">SuShi</Title>
 
         <section>Bento for Two</section>
@@ -58,6 +60,8 @@ function SushiMenu() {
               );
             })}
         </Item>
+
+        <img className="donburi" src="/images/donburi.png" alt="" />
 
         <section>Sashimi (8 pcs)</section>
         <Item>
@@ -115,7 +119,7 @@ function SushiMenu() {
               );
             })}
         </Item>
-      </DRINKS>
+      </MAIN>
     </>
   );
 }

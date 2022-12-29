@@ -1,11 +1,11 @@
 import React from "react";
-import { DRINKS, Title, Item, Text } from "../styles/styleDrinks";
+import { MAIN, Title, Item, Text } from "../styles/styleItems";
 import Drinks from "./data/Drinks.json";
 
 function DrinksMenu() {
   return (
     <>
-      <DRINKS>
+      <MAIN>
         <Title id="drinks">Let's Drink</Title>
 
         <section>FUN MIXED</section>
@@ -24,8 +24,9 @@ function DrinksMenu() {
               );
             })}
         </Item>
-        <img src="/images/martini.png" alt="" />
         <section>MARTINI</section>
+
+        <img className="martini" src="/images/martini.png" alt="" />
 
         <Item>
           {Drinks.drinks
@@ -144,7 +145,7 @@ function DrinksMenu() {
               );
             })}
         </Item>
-      </DRINKS>
+      </MAIN>
     </>
   );
 }

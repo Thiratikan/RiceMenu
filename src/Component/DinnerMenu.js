@@ -1,11 +1,11 @@
 import React from "react";
-import { DRINKS, Title, Item, Text } from "../styles/styleDrinks";
+import { MAIN, Title, Item, Text } from "../styles/styleItems";
 import Dinner from "./data/Dinner.json";
 
 function DinnerMenu() {
   return (
     <>
-      <DRINKS>
+      <MAIN>
         <Title id="dinner">Dinner</Title>
 
         <section>SOUP</section>
@@ -24,7 +24,7 @@ function DinnerMenu() {
               );
             })}
         </Item>
-
+        <img className="padthai" src="/images/padthai.png" alt="" />
         <section>APPETIZER</section>
         <Item>
           {Dinner.dinner
@@ -75,7 +75,7 @@ function DinnerMenu() {
               );
             })}
         </Item>
-      </DRINKS>
+      </MAIN>
     </>
   );
 }
