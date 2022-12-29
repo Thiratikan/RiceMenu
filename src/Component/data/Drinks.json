@@ -28,31 +28,31 @@
       "id": 5,
       "title": "Warm Sake",
       "category": "SAKE",
-      "price": "8 Oz. / 12"
+      "price": "8 oz/12"
     },
     {
       "id": 6,
       "title": "Hajushika Namacho (fresh & ligh)",
       "category": "SAKE",
-      "price": "6.0 Oz. / 11"
+      "price": "6.0 oz/11"
     },
     {
       "id": 7,
       "title": "Hana Awaka Sparkling Sake (a hint of sweetness)",
       "category": "SAKE",
-      "price": "8.5 Oz. / 22"
+      "price": "8.5 oz/22"
     },
     {
       "id": 8,
       "title": "Hakushika Snow Beauty (unfiltered)",
       "category": "SAKE",
-      "price": "10 Oz. / 20"
+      "price": "10 oz/20"
     },
     {
       "id": 9,
       "title": "Hakushika Junmai Ginjo (full body)",
       "category": "SAKE",
-      "price": "10 Oz. / 20"
+      "price": "10 oz/20"
     },
     {
       "id": 10,
@@ -123,25 +123,25 @@
     {
       "id": 21,
       "title": "Passion fruit nectar (citrus, pineapple and guava)",
-      "category": "NONE ALCOCHOLIC",
+      "category": "NON ALCOHOLIC",
       "price": "6"
     },
     {
       "id": 22,
       "title": "Lemongrass Iced Green Tea",
-      "category": "NONE ALCOCHOLIC",
+      "category": "NON ALCOHOLIC",
       "price": "4"
     },
     {
       "id": 23,
       "title": "Thai Iced Tea | Regular Iced Tea | Soda",
-      "category": "NONE ALCOCHOLIC",
+      "category": "NON ALCOHOLIC",
       "price": "4"
     },
     {
       "id": 24,
       "title": "Distilled-Evian | Sparking-Badoit | Soda)",
-      "category": "NONE ALCOCHOLIC",
+      "category": "NON ALCOHOLIC",
       "price": "4/8"
     }
   ]
