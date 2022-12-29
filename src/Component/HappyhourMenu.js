@@ -9,6 +9,9 @@ function HappyhourMenu() {
         <Title id="happyhour">Happy Hour</Title>
 
         <section>WHITE WINE</section>
+
+        <img className="wine" src="/images/wine.png" alt="" />
+
         <Item>
           {Happyhour.happyhour
             .filter((i) => i.category === "WHITE WINE")
@@ -24,6 +27,8 @@ function HappyhourMenu() {
               );
             })}
         </Item>
+
+        <img className="nigiri" src="/images/nigiri.png" alt="" />
 
         <section>RED WINE</section>
         <Item>
@@ -64,12 +69,11 @@ function HappyhourMenu() {
           {Happyhour.happyhour
             .filter((i) => i.category === "Sushi")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, id } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
-                    <h1 className="price"> {price}</h1>
                   </Text>
                 </div>
               );

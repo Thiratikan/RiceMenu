@@ -30,6 +30,9 @@ export const MAIN = styled.div`
     position: relative;
     margin-bottom: 5px;
   }
+  h1 {
+    position: static;
+  }
   h2 {
     font-size: 11px;
     weight: 20px;
@@ -75,8 +78,19 @@ export const MAIN = styled.div`
   .padthai {
     height: 200px;
     weight: 50px;
+    margin-left: 80px;
+    margin-top: 330px;
+  }
+
+  .wine {
     margin-left: 70px;
-    margin-top: 350px;
+    margin-top: -120px;
+  }
+  .nigiri {
+    height: 100px;
+    weight: 50px;
+    margin-left: 140px;
+    margin-top: 300px;
   }
 
   .price {
