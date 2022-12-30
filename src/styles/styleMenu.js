@@ -40,8 +40,7 @@ export const Container = styled.section`
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
 `;
 
 export const Nav = styled.div`
@@ -55,6 +54,8 @@ export const Nav = styled.div`
     flex-direction: row;
     space-between: center;
     justify-content: end;
+    margin: auto;
+    text-align: center;
   }
   li {
     margin-right: 80px;

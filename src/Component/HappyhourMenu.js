@@ -10,8 +10,6 @@ function HappyhourMenu() {
 
         <section>WHITE WINE</section>
 
-        <img className="wine" src="/images/wine.png" alt="" />
-
         <Item>
           {Happyhour.happyhour
             .filter((i) => i.category === "WHITE WINE")
@@ -27,8 +25,6 @@ function HappyhourMenu() {
               );
             })}
         </Item>
-
-        <img className="nigiri" src="/images/nigiri.png" alt="" />
 
         <section>RED WINE</section>
         <Item>
@@ -63,6 +59,8 @@ function HappyhourMenu() {
               );
             })}
         </Item>
+
+        <img className="wine" src="/images/wine.png" alt="" />
 
         <section>Sushi (5 pcs. $5)</section>
         <Item>
