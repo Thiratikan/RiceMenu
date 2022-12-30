@@ -58,7 +58,9 @@ function SushiMenu() {
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
-                    <h2>{desc}</h2>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );

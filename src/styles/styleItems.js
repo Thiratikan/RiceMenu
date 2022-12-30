@@ -16,7 +16,7 @@ export const Text = styled.div`
 
 export const Desc = styled.div`
   margin-top: 5px;
-  width: 330px;
+  width: 315px;
 `;
 
 export const MAIN = styled.div`
