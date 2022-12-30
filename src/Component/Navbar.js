@@ -1,10 +1,11 @@
-import { Nav } from "../styles/styleMenu";
+import { Nav, Title } from "../styles/styleMenu";
 
 function Navbar() {
   return (
     <>
       <Nav>
         <hr />
+        <Title id="lunch"> &#9758; MENU &#9756;</Title>
         <ul>
           <li>
             <a href="#drinks">Drinks</a>

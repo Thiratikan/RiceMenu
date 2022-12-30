@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const Title = styled.div`
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+`;
+
 export const Header = styled.div`
   font-family: "Roboto", sans-serif;
   color: #413e3e;
@@ -56,6 +63,7 @@ export const Nav = styled.div`
     justify-content: end;
     margin: auto;
     text-align: center;
+    margin-top: 20px;
   }
   li {
     margin-right: 80px;
