@@ -6,7 +6,7 @@ function SushiMenu() {
   return (
     <>
       <MAIN>
-        <img className="sushi" src="/images/sushi.jpg" alt="" />
+        <img className="sushi" src="/images/sushi.png" alt="" />
 
         <Title id="sushi">SuShi</Title>
 

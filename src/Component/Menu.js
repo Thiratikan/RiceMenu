@@ -4,7 +4,7 @@ import SushiMenu from "./SushiMenu";
 import LunchMenu from "./LunchMenu";
 import DinnerMenu from "./DinnerMenu";
 import HappyhourMenu from "./HappyhourMenu";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Welcome from "./Welcome";
 
 function Menu() {
@@ -16,7 +16,7 @@ function Menu() {
       <LunchMenu />
       <DinnerMenu />
       <HappyhourMenu />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

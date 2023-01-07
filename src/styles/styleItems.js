@@ -56,12 +56,13 @@ export const MAIN = styled.div`
   }
 
   .martini {
-    margin-left: 72px;
+    height: 320px;
+    margin-left: 160px;
     margin-top: 130px;
   }
   .sushi {
     height: 250px;
-    weight: 150px;
+    weight: 250px;
     margin-left: 120px;
     margin-top: -80px;
   }
@@ -74,19 +75,20 @@ export const MAIN = styled.div`
   }
 
   .tomyum {
-    margin-left: 70px;
+    height: 250px;
+    margin-left: 90px;
     margin-top: -50px;
   }
   .rice {
     height: 180px;
     weight: 100px;
-    margin-left: 140px;
+    margin-left: 100px;
     margin-top: 260px;
   }
   .padthai {
     height: 200px;
     weight: 50px;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 330px;
   }
 
