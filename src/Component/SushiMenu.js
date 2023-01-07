@@ -6,7 +6,7 @@ function SushiMenu() {
   return (
     <>
       <MAIN>
-        <img className="sushi" src="/images/sushi.png" alt="" />
+        <img className="sushi" src="/images/sushi.jpg" alt="" />
 
         <Title id="sushi">SuShi</Title>
 
@@ -61,7 +61,7 @@ function SushiMenu() {
             })}
         </Item>
 
-        <img className="donburi" src="/images/donburi.png" alt="" />
+        <img className="donburi" src="/images/donburi.jpg" alt="" />
 
         <section>Sashimi (8 pcs)</section>
         <Item>

@@ -44,7 +44,7 @@ function LunchMenu() {
             })}
         </Item>
 
-        <img className="tomyum" src="/images/tomyum.png" alt="" />
+        <img className="tomyum" src="/images/tomyum.jpg" alt="" />
 
         <section>SOUP</section>
         <Item>
@@ -82,7 +82,7 @@ function LunchMenu() {
             })}
         </Item>
 
-        <img className="rice" src="/images/rice.png" alt="" />
+        <img className="rice" src="/images/rice.jpg" alt="" />
 
         <section>SPECIALTY</section>
         <Item>

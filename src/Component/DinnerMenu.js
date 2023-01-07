@@ -24,7 +24,7 @@ function DinnerMenu() {
               );
             })}
         </Item>
-        <img className="padthai" src="/images/padthai.png" alt="" />
+        <img className="padthai" src="/images/padthai.jpg" alt="" />
         <section>APPETIZER</section>
         <Item>
           {Dinner.dinner

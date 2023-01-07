@@ -28,8 +28,6 @@ function HappyhourMenu() {
             })}
         </Item>
 
-        <img className="nigiri" src="/images/nigiri.png" alt="" />
-
         <section>RED WINE</section>
         <Item>
           {Happyhour.happyhour

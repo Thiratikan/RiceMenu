@@ -26,7 +26,7 @@ function DrinksMenu() {
         </Item>
         <section>MARTINI</section>
 
-        <img className="martini" src="/images/martini.png" alt="" />
+        <img className="martini" src="/images/martini.jpg" alt="" />
 
         <Item>
           {Drinks.drinks
