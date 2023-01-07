@@ -1,5 +1,5 @@
 import React from "react";
-import { MAIN, Title, Item, Text } from "../styles/styleItems";
+import { MAIN, Title, Item, Text, Desc } from "../styles/styleItems";
 import Sushi from "./data/Sushi.json";
 
 function SushiMenu() {
@@ -15,12 +15,15 @@ function SushiMenu() {
           {Sushi.sushi
             .filter((i) => i.category === "Bento for Two")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );
@@ -49,12 +52,15 @@ function SushiMenu() {
           {Sushi.sushi
             .filter((i) => i.category === "Traditional Rolls (6 pcs)")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );
@@ -68,12 +74,13 @@ function SushiMenu() {
           {Sushi.sushi
             .filter((i) => i.category === "Sashimi (8 pcs)")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <h2>{desc}</h2>
                   </Text>
                 </div>
               );
@@ -91,12 +98,15 @@ function SushiMenu() {
                 "Rice Bowl (** all Rice Bowls will be topped with sesame seeds)"
             )
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );

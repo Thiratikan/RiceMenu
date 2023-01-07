@@ -14,6 +14,11 @@ export const Text = styled.div`
   background-image: none;
 `;
 
+export const Desc = styled.div`
+  margin-top: 5px;
+  width: 315px;
+`;
+
 export const MAIN = styled.div`
   padding: 20px;
   font-family: "Roboto", sans-serif;
@@ -25,17 +30,20 @@ export const MAIN = styled.div`
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: green;
   }
   div {
     position: relative;
     margin-bottom: 5px;
   }
   h1 {
-    position: static;
+    color: black;
   }
   h2 {
     font-size: 11px;
     weight: 20px;
+    color: #413e3e;
+    margin-top: 5px;
   }
   img {
     height: 350px;
@@ -83,18 +91,13 @@ export const MAIN = styled.div`
   }
 
   .wine {
-    margin-left: 70px;
-    margin-top: -120px;
-  }
-  .nigiri {
-    height: 100px;
-    weight: 50px;
-    margin-left: 140px;
-    margin-top: 300px;
+    margin-left: 90px;
+    margin-top: -140px;
   }
 
   .price {
     margin-left: 330px;
     margin-top: -15px;
+    color: black;
   }
 `;

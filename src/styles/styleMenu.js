@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const Title = styled.div`
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+`;
+
 export const Header = styled.div`
   font-family: "Roboto", sans-serif;
   color: #413e3e;
@@ -40,8 +47,7 @@ export const Container = styled.section`
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
 `;
 
 export const Nav = styled.div`
@@ -55,6 +61,9 @@ export const Nav = styled.div`
     flex-direction: row;
     space-between: center;
     justify-content: end;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
   }
   li {
     margin-right: 80px;

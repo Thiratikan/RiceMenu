@@ -18,9 +18,8 @@ function Welcome() {
           </p>
           <h1>Thank you for dining in with us.</h1>
         </Header>
+        <Navbar />
       </Container>
-
-      <Navbar />
     </>
   );
 }

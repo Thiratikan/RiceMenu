@@ -1,5 +1,5 @@
 import React from "react";
-import { MAIN, Title, Item, Text } from "../styles/styleItems";
+import { MAIN, Title, Item, Text, Desc } from "../styles/styleItems";
 import Lunch from "./data/Lunch.json";
 
 function LunchMenu() {
@@ -19,7 +19,9 @@ function LunchMenu() {
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
-                    <h2>{desc}</h2>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );
@@ -37,7 +39,9 @@ function LunchMenu() {
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
-                    <h2>{desc}</h2>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );
@@ -113,7 +117,9 @@ function LunchMenu() {
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
-                    <h2>{desc}</h2>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );

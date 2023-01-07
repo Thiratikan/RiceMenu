@@ -1,5 +1,5 @@
 import React from "react";
-import { MAIN, Title, Item, Text } from "../styles/styleItems";
+import { MAIN, Title, Item, Text, Desc } from "../styles/styleItems";
 import Dinner from "./data/Dinner.json";
 
 function DinnerMenu() {
@@ -13,12 +13,13 @@ function DinnerMenu() {
           {Dinner.dinner
             .filter((i) => i.category === "SOUP")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <h2>{desc}</h2>
                   </Text>
                 </div>
               );
@@ -30,12 +31,13 @@ function DinnerMenu() {
           {Dinner.dinner
             .filter((i) => i.category === "APPETIZER")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <h2>{desc}</h2>
                   </Text>
                 </div>
               );
@@ -47,12 +49,13 @@ function DinnerMenu() {
           {Dinner.dinner
             .filter((i) => i.category === "SPECIALTY")
             .map((item) => {
-              const { title, price, id } = item;
+              const { title, price, id, desc } = item;
               return (
                 <div key={id}>
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
+                    <h2>{desc}</h2>
                   </Text>
                 </div>
               );
@@ -70,7 +73,9 @@ function DinnerMenu() {
                   <Text>
                     <h1>{title}</h1>
                     <h1 className="price"> {price}</h1>
-                    <h2>{desc}</h2>
+                    <Desc>
+                      <h2>{desc}</h2>
+                    </Desc>
                   </Text>
                 </div>
               );
