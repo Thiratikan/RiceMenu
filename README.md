@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="/public/images/ricemenu.jpeg" width="350" alt="accessibility text">
+  <img src="/public/images/ricemenu.jpeg"  alt="accessibility text">
 </p>
